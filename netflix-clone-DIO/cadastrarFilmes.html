@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar filme</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+        <h2 class="logo">NETFLIX</h2>
+    </div>
+</header>
+
+  <h1 class="title">Cadastro de filme</h1>
+  <div id="form">
+    <form action="">
+      <h1 class="Cadastro">Cadastro</h1>
+       <label for="nomeFilme">Titulo Do Filme</label>
+       <div class="input">
+         <input id="nomeFilme" placeholder="Titulo do filme" type="text">
+       </div>
+
+       <label for="Sinopse">Sinopse</label>
+       <div class="textarea">
+         <textarea id="Sinopse" placeholder="Sinopse do Filme" rows="10" cols="30"></textarea>
+       </div>
+       
+      <div class="posicionarduracao">
+       <label for="duraçãoFilme">Duração do filme</label>
+       <div class="input">
+         <input id="duraçãoFilme" placeholder="Digite a duração do filme" type="text">
+       </div>
+      </div>
+
+       <label for="capaFilme">Selecione a capa do filme</label>
+       <div class="Capa">
+         <input id="capaFilme"  type="file" accept="image/jpg,image/png">
+
+         <div class="posicionarfilme">
+          <label for="filme">Selecione o Filme a ser adicionado</label>
+          <div class="filme">
+            <input id="Filme"  type="file" accept="video/*">
+         </div>
+
+         <div class="posicionargenero">
+          <label for="genero">Digite o Gênero do filme</label>
+          <div class="input">
+            <input id="genero"  type="text" placeholder="Gênero do filme">
+         </div>
+
+       </div>
+    </form>
+  </div>
+  
+</body>
+</html>

@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    background: #141414;
+    width: 100%;
+    height: 100vh;
+}
+
+#form{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%);
+    border-radius: 10px;
+    padding: 60px;
+    width: min-content;
+    margin-bottom: 100px;
+}
+
+.title{
+    text-align: center;
+    margin-top: 10%;
+    color: red;
+}
+
+.Cadastro{
+    margin-bottom: 20%;
+    color: red
+}
+
+label{
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: red;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+.input{
+    margin-bottom: 10%;
+    border: 4px solid;
+    color: gray;
+}
+
+.input input{
+    border: none;
+    width: 100%;
+    outline: none;
+    height: 30px;
+}
+
+.Capa{
+    color: white;
+}
+
+.filme{
+    color: white;
+}
+
+.posicionarfilme{
+    margin-top: 20px;
+}
+
+.posicionargenero{
+    margin-top: 20px;
+}
+
+.posicionarduracao{
+    margin-top: 20px;
+}
