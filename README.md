@@ -1,3 +1,2 @@
-# Netflix-clone-DIO
-Aulas DIO
-Josinon
+# Netflix-clone
+Clone Home Page Netflix
